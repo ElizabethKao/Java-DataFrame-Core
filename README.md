@@ -11,5 +11,9 @@ A high-performance Java implementation of a DataFrame object, modeled after the 
 * **Polymorphic Data Support:** Leverages Java generics to support heterogeneous data types across different columns.
 * **Memory Efficient:** Includes manual load-factor management to balance memory usage and search speed.
 
+## Testing & TDD
+* **Test-Driven Development:** Developed the core engine using TDD principles to ensure high code coverage and reliability.
+* **Robust Test Suites:** Includes comprehensive unit tests (`SeriesTestDouble.java`, `SeriesTestString.java`) to validate generic type handling and edge-case behavior for various data types.
+
 ## Technical Implementation
 The DataFrame class acts as a dictionary where keys are column headers and values are SeriesV2 objects. By integrating a BST into the Series implementation, search operations like loc() and drop() are optimized for large datasets.
