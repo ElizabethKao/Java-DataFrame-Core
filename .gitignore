@@ -38,3 +38,7 @@ out/
 .project
 .classpath
 .settings/
+=======
+.idea/
+.iml/
+>>>>>>> 87de3b1 (rename gitignore to .gitignore and update rules)
